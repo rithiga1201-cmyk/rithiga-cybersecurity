@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Shop</h1>
+    <button onclick="viewCart()">Cart 🛒 (<span id="cart-count">0</span>)</button>
+</header>
+
+<section class="products">
+    <div class="product">
+        <h2>Product 1</h2>
+        <p>Price: ₹500</p>
+        <button onclick="addToCart('Product 1', 500)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h2>Product 2</h2>
+        <p>Price: ₹800</p>
+        <button onclick="addToCart('Product 2', 800)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h2>Product 3</h2>
+        <p>Price: ₹1200</p>
+        <button onclick="addToCart('Product 3', 1200)">Add to Cart</button>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html># Auto detect text files and perform LF normalization
+* text=auto
