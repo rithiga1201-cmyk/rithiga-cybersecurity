@@ -1,0 +1,28 @@
+Step 1: Initialize a new Git repository 
+git init my-repo 
+ 
+Step 2: Create and add files to the repository 
+cd my-repo 
+echo "Hello, World!" > hello.txt 
+git add hello.txt 
+ 
+Step 3: Commit changes to the repository 
+git commit -m "Initial commit" 
+ 
+Step 4: Create a new branch 
+git branch feature/new-feature 
+ 
+Step 5: Make changes in the new branch 
+git checkout feature/new-feature 
+echo "Hello, World! This is a new feature." > hello.txt 
+git add hello.txt 
+ 
+Step 6: Commit changes in the new branch 
+git commit -m "Added new feature" 
+ 
+Step 7: Merge the new branch into the main branch 
+git checkout master 
+git merge feature/new-feature 
+ 
+Step 8: Delete the new branch 
+git branch -d feature/new-feature
